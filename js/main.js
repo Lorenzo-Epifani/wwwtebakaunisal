@@ -87,8 +87,8 @@ $(document).ready(function(){
 	/*	Menu item highlighting
 	/* ========================================================================= */
 
-	jQuery('#nav').singlePageNav({
-		offset: jQuery('#nav').outerHeight(),
+	jQuery('#scroll').singlePageNav({
+		offset: jQuery('#scroll').outerHeight(),
 		filter: ':not(.external)',
 		speed: 1000,
 		currentClass: 'current',
