@@ -90,7 +90,7 @@ $(document).ready(function(){
 	jQuery('#scroll').singlePageNav({
 		offset: jQuery('#scroll').outerHeight(),
 		filter: ':not(.external)',
-		speed: 1000,
+		speed: 600 ,
 		currentClass: 'current',
 		easing: 'easeInOutQuad',
 		updateHash: true,

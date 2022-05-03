@@ -9,7 +9,7 @@
   }
   
   .nav {
-    height: 50px;
+    height: 80px;
     width: 100%;
     background-color: var(--col2);
     position: relative;
@@ -54,11 +54,11 @@
   }
   
   #unisalento {
-    max-height: 40px;
+    max-height: 60px;
     max-width: auto;
     margin: auto;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
 
 }
 
@@ -71,9 +71,9 @@
     }
     .nav > .nav-btn > label {
       display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
+      width: 80px;
+      height: 80px;
+      padding: 15px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       background-color: rgba(0, 0, 0, 0.3);
@@ -83,6 +83,7 @@
       width: 25px;
       height: 10px;
       border-top: 2px solid #eee;
+      margin: auto;
     }
     .nav > .nav-links {
       position: absolute;
@@ -92,7 +93,7 @@
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      top: 50px;
+      top: 80px;
       left: 0px;
       max-width: 50%;
       margin-left: 50%;
@@ -106,7 +107,22 @@
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
+      height: calc(100vh - 80px);
       overflow-y: auto;
     }
+  }
+
+  #tp {
+    margin-top: 10px;
+  }
+
+  #bt {
+    margin-bottom: 10px;
+  }
+
+  .nav-btn {
+    margin-right:auto;
+    padding: 0px;
+    height: 50px;
+    width: 50px;
   }
